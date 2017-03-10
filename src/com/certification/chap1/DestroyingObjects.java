@@ -8,10 +8,4 @@ public class DestroyingObjects {
 		String three = one;
 		one = null;
 	}
-	
-	@Override
-	protected void finalize() throws Throwable {
-		// TODO Auto-generated method stub
-		super.finalize();
-	}
 }
